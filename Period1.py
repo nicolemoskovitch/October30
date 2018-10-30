@@ -34,3 +34,13 @@ def task3():
     return a * b
 
 print("you should tip $" + str(task3()))
+
+def task4():
+    a=input("choose a letter to see if it is in the string")
+    hello="hello"
+    if a in hello:
+        return "true"
+    if a not in hello:
+        return "false"
+
+print(task4())

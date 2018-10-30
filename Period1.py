@@ -21,8 +21,16 @@ print(task1())
 def task2():
     a=int(input("put in a number between 1 and ten to see if it matched the other number"))
     if a ==3:
-        print("true")
+        return "true"
     if a != 3:
-        print("false")
+        return "false"
 
 print(task2())
+
+def task3():
+    a=int(input("how much was the bill"))
+    b = int(input("what percent do you want to tip"))
+    b = b / 100
+    return a * b
+
+print("you should tip $" + str(task3()))
